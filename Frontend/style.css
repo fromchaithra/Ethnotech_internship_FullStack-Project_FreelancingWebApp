@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7f7f7;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 60px;
+  background: white;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+}
+
+.navbar h2 {
+  color: #1dbf73;
+}
+
+.navbar input {
+  width: 350px;
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* TITLE */
+.title {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 40px;
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 40px 80px;
+}
+
+/* CARD */
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  transition: 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  color: #555;
+}
+
+.price {
+  color: #1dbf73;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card button {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  background: #1dbf73;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
